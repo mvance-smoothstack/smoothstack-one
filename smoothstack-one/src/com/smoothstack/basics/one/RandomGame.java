@@ -19,7 +19,7 @@ public class RandomGame {
 		int theNumber;
 		Random randomGenerator = new Random();
 		Scanner input = new Scanner(System.in);
-		theNumber = randomGenerator.nextInt(100) + 1;	//the number the player is trying to guess
+		theNumber = randomGenerator.nextInt(99) + 1;	//the number the player is trying to guess
 		int guess = 0;
 		final int TRIES = 5;	//number of attempts the player gets
 		
