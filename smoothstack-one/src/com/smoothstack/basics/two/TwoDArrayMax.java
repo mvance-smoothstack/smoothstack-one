@@ -44,7 +44,7 @@ public class TwoDArrayMax {
 			}
 		}
 		System.out.println("The maximum value was " + max[0] + ", found at position " + max[1] + ", " + max[2] + ".");
-		//TODO: Consider formatting the entire array for display.
+		//TODO: Consider formatting the entire array for display and printing it out.
 	}
 
 }
