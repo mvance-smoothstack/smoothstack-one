@@ -50,7 +50,7 @@ public class LineTest {
 	public void parallelTo() {
 		assertTrue(flatLine.parallelTo(upperFlatLine));
 		//this should return true since tinyBitNotFlatLine's slope is within the delta coded into Line.parallelTo()
-		assertTrue(flatLine.parallelTo(tinyBitNotFlatLine));
+		assertTrue(tinyBitNotFlatLine.parallelTo(flatLine));
 	}
 	
 	@Test
